@@ -1,4 +1,4 @@
-# Documentación de Seis8s ([seis8s.org](https://seis8s.org/))
+# Documentación de Seis8s
 ## Taller de Transferencias Aurales 2024
 
 ## Diapositivas
@@ -33,11 +33,30 @@ Consulta códigos de ejemplo en el siguiente link: [https://luisnavarrodelangel.
 
 | Comando |Descripción| Ejemplo
 |----------------|----------------|----------------|
+| `\\` | Permite escribir un comentario de una línea | `\\ este es un comantario`|
+| `\* *\` | Permite escribir un comentario de varias lineas | `\* este es un comantario que puede ser de varias lineas *\`|
 | `tempo` | Establece la velocidad de la música |`tempo 80;`|
 | `paneo` | Mueve el sonido a la izquierda, derecha o en medio |`paneo 0;`|
 | `volumen` | Establece el volumen maestro/general de la música |`volumen 0.85;`|
 | `armonia` | Establece los acordes de los instrumentos |`armonia |C||Dm|;`|
 | `acordes` | Es un comando sinónimo del comando armonia|`acordes |C||Dm|;`|
+
+- La siguiente tabla muestra los acordes disponibles en Seis8s:
+
+| Comando | Acorde |
+|----------------|----------------|
+| M  | mayor |
+| maj  | mayor |
+| maj7  | mayor siete |
+| m | menor |
+| min  | menor |
+| min7  | menor siete |
+| dim | disminuido|
+|m7b5| semi disminuido|
+| aug | aumentado|
+| sus2 | suspendido dos|
+| sus4 | suspendido cuatro|
+
 
 ## Comandos de los instrumentos
 
