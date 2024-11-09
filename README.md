@@ -29,6 +29,8 @@ Consulta códigos de ejemplo en el siguiente link: [https://luisnavarrodelangel.
 
 ## Comandos globales
 
+- Los siguientes comandos controlan los instrumentos y la composición globalmente:
+
 | Comando |Descripción| Ejemplo
 |----------------|----------------|----------------|
 | `tempo` | Establece la velocidad de la música |`tempo 80;`|
@@ -37,13 +39,34 @@ Consulta códigos de ejemplo en el siguiente link: [https://luisnavarrodelangel.
 | `armonia` | Establece los acordes de los instrumentos |`armonia |C||Dm|;`|
 | `acordes` | Es un comando sinónimo del comando armonia|`acordes |C||Dm|;`|
 
-
-
 ## Comandos de los instrumentos
 
-## Notación
+- Los siguientes comandos controlan los instrumentos individualmente:
+
+### Comandos de notación musical
+
+- La siguiente tabla muestra las figuras rítmicas de los instrumentos en Seis8s:
+
+![Alt text](images/figuras_ritmicas.jpeg)
+
+- Abajo se muestran los mandos para generar las figuras rítmicas de la tabla anterior:
+
+| Comando | Figura rítmica | Valor
+|----------------|----------------|----------------|
+| `1n` | 𝅝 | 4 tiempos|
+| `1s` | 𝄻 | 4 tiempos|
+| `2n` |𝅗𝅥  | 2 tiempos|
+| `2s` |𝄼  |2 tiempos|
+| `4n` | 𝅘𝅥 |1 tiempo|
+| `4s` | 𝄽 |1 tiempo|
+| `8n` | 𝅘𝅥𝅮  | 1/2 tiempo|
+| `8n` | 𝄾  |1/2 tiempo|
+| `16n` | 𝅘𝅥𝅯 | 1/4 tiempo|
+| `16s` | 𝄿  | 1/4 tiempo|
 
 ### Comandos del bajo
+
+
 
 ### Comandos del teclado
 ### Comandos de las congas
