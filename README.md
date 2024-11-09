@@ -104,8 +104,7 @@ Consulta códigos de ejemplo en el siguiente link: [https://luisnavarrodelangel.
 | `volumen` | Cambia el volumen  |`teclado (volumen 0.95);`|
 | `paneo` | Mueve el instrumento a la izquierda, derecha o centro  |`teclado (paneo 0);`|
 | `octava` | Hace el instrumento más grave o agudo  |`teclado (octava 4);`|
-| `acompañamiento` | Estable la línea melódica y rítmica del instrumento  |`teclado (acompañamiento | 𝄽  𝅘𝅥  𝄽  𝅘𝅥
-|| 𝄽  𝅘𝅥  𝄽  𝅘𝅥 |); `|
+| `acompañamiento` | Estable la línea melódica y rítmica del instrumento  |`teclado (acompañamiento | 𝄽  𝅘𝅥  𝄽  𝅘𝅥|| 𝄽  𝅘𝅥  𝄽  𝅘𝅥 |);`|
 | `acompanamiento` | Sínonimo de  `acompañamiento` | `teclado (acompanamiento | 𝄽  𝅘𝅥  𝄽  𝅘𝅥 || 𝄽  𝅘𝅥  𝄽  𝅘𝅥 |);`|
 
 ### Comandos de las congas
