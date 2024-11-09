@@ -73,7 +73,7 @@ Consulta códigos de ejemplo en el siguiente link: [https://luisnavarrodelangel.
 | `volumen` | Cambia el volumen  |`bajo (volumen 0.85);`|
 | `paneo` | Mueve el instrumento a la izquierda, derecha o centro  |`bajo (paneo 0.5);`|
 | `octava` | Hace el instrumento más grave o agudo  |`bajo (octava 6);`|
-| `tumbao` | Estable la línea melódica y rítmica del instrumento  |`bajo (tumbao | 𝅘𝅥  𝄽  𝅘𝅥 /3 𝅘𝅥 /5 || 𝅘𝅥  𝄽  𝅘𝅥 /3 𝅘𝅥 /5 |);`|
+| `tumbao` | Estable la línea melódica  | `bajo (tumbao | 𝅘𝅥  𝄽  𝅘𝅥 /3 𝅘𝅥 /5 || 𝅘𝅥  𝄽  𝅘𝅥 /3 𝅘𝅥 /5 |);`|
 
 
 ### Comandos del teclado
