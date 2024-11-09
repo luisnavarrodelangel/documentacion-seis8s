@@ -73,10 +73,57 @@ Consulta códigos de ejemplo en el siguiente link: [https://luisnavarrodelangel.
 | `volumen` | Cambia el volumen  |`bajo (volumen 0.85);`|
 | `paneo` | Mueve el instrumento a la izquierda, derecha o centro  |`bajo (paneo 0.5);`|
 | `octava` | Hace el instrumento más grave o agudo  |`bajo (octava 6);`|
-| `tumbao` | Estable la línea melódica y rítmica del instrumento | `bajo (tumbao | 𝅘𝅥  𝄽  𝅘𝅥 /3 𝅘𝅥 /5 || 𝅘𝅥  𝄽  𝅘𝅥 /3 𝅘𝅥 /5 |);`|
+| `tumbao` | Estable la línea melódica y rítmica del instrumento  | `bajo (tumbao | 𝅘𝅥  𝄽  𝅘𝅥 /3 𝅘𝅥 /5 || 𝅘𝅥  𝄽  𝅘𝅥 /3 𝅘𝅥 /5 |);`|
 
 
 ### Comandos del teclado
+
+| Comando |Descripción| Ejemplo
+|----------------|----------------|----------------|
+| `teclado` | Toca un teclado default |`teclado;`|
+| `sonido` | Cambia el sample o muestra  |`teclado (sonido 7);`|
+| `volumen` | Cambia el volumen  |`teclado (volumen 0.95);`|
+| `paneo` | Mueve el instrumento a la izquierda, derecha o centro  |`teclado (paneo 0);`|
+| `octava` | Hace el instrumento más grave o agudo  |`teclado (octava 4);`|
+| `acompañamiento` | Estable la línea melódica y rítmica del instrumento  | ` teclado (acompañamiento | 𝄽  𝅘𝅥  𝄽  𝅘𝅥 || 𝄽  𝅘𝅥  𝄽  𝅘𝅥 |);`|
+| `acompanamiento` | Sínonimo de  `acompañamiento` | ` teclado (acompanamiento | 𝄽  𝅘𝅥  𝄽  𝅘𝅥 || 𝄽  𝅘𝅥  𝄽  𝅘𝅥 |);`|
+
 ### Comandos de las congas
+
+| Comando |Descripción| Ejemplo
+|----------------|----------------|----------------|
+| `congas` | Toca unas congas default |`congas;`|
+| `sonido` | Cambia el sample o muestra  |`congas (sonido 1);`|
+| `volumen` | Cambia el volumen  |`congas (volumen 0.95);`|
+| `paneo` | Mueve el instrumento a la izquierda, derecha o centro  |`congas (paneo 1);`|
+| `octava` | Hace el instrumento más grave o agudo  |`congas (octava 4);`|
+| `marcha` | Estable la el ritmo del instrumento  | `congas (marcha |𝄽 𝅘𝅥 𝄽 𝅘𝅥 |);`|
+| `a` | Accesa el golpe abierto  | `congas (marcha |  𝄽 𝅘𝅥/a 𝄽 𝅘𝅥/a |);`|
+| `s` | Accesa el golpe slap  | `congas (marcha |  𝄽 𝅘𝅥/s 𝄽 𝅘𝅥/s |);`|
+| `m` | Accesa el golpe muteado   | `congas (marcha |  𝄽 𝅘𝅥/m 𝄽 𝅘𝅥/m |);`|
+| `t` | Accesa el golpe con el talon de la mano/palma   | `congas (marcha |  𝄽 𝅘𝅥/t 𝄽 𝅘𝅥/t |);`|
+| `p` | Accesa el golpe con la punta de la mano/palma  | `congas (marcha |  𝄽 𝅘𝅥/p 𝄽 𝅘𝅥/p |);`|
+
 ### Comandos de bombo
+
+| Comando |Descripción| Ejemplo
+|----------------|----------------|----------------|
+| `bombo` | Toca un bombo default |`bombo;`|
+| `sonido` | Cambia el sample o muestra  |`bombo (sonido 1);`|
+| `volumen` | Cambia el volumen  |`bombo (volumen 0.95);`|
+| `paneo` | Mueve el instrumento a la izquierda, derecha o centro  |`bombo (paneo 1);`|
+| `octava` | Hace el instrumento más grave o agudo  |`bombo (octava 4);`|
+| `ritmo` | Estable la el rítmo del instrumento  | ` bombo (ritmo | 𝅘𝅥  𝄽 𝅘𝅥 𝅘𝅥 |); `|
+
 ### Comandos del contratiempo
+
+| Comando |Descripción| Ejemplo
+|----------------|----------------|----------------|
+| `contratiempo` | Toca un contratiempo default |`contratiempo;`|
+| `contratiempos` | Sínonimo de  `contratiempo` |`contratiempos;`|
+| `contras` | Sínonimo de  `contratiempo` |`contras;`|
+| `sonido` | Cambia el sample o muestra  |`contratiempo (sonido 1);`|
+| `volumen` | Cambia el volumen  |`contratiempo (volumen 0.95);`|
+| `paneo` | Mueve el instrumento a la izquierda, derecha o centro  |`contratiempo (paneo 1);`|
+| `octava` | Hace el instrumento más grave o agudo  |`contratiempo (octava 4);`|
+| `ritmo` | Estable la el rítmo del instrumento  | ` contratiempo ( v 0.9, ritmo |𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅮 𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅮|);`|
