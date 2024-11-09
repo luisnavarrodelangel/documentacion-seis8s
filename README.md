@@ -117,11 +117,11 @@ Consulta códigos de ejemplo en el siguiente link: [https://luisnavarrodelangel.
 | `paneo` | Mueve el instrumento a la izquierda, derecha o centro  |`congas (paneo 1);`|
 | `octava` | Hace el instrumento más grave o agudo  |`congas (octava 4);`|
 | `marcha` | Estable la el ritmo del instrumento  | `congas (marcha |𝄽 𝅘𝅥 𝄽 𝅘𝅥 |);`|
-| `a` | Accesa el golpe abierto  | `congas (marcha |  𝄽 𝅘𝅥/a 𝄽 𝅘𝅥/a |);`|
-| `s` | Accesa el golpe slap  | `congas (marcha |  𝄽 𝅘𝅥/s 𝄽 𝅘𝅥/s |);`|
-| `m` | Accesa el golpe muteado   | `congas (marcha |  𝄽 𝅘𝅥/m 𝄽 𝅘𝅥/m |);`|
-| `t` | Accesa el golpe con el talon de la mano/palma   | `congas (marcha |  𝄽 𝅘𝅥/t 𝄽 𝅘𝅥/t |);`|
-| `p` | Accesa el golpe con la punta de la mano/palma  | `congas (marcha |  𝄽 𝅘𝅥/p 𝄽 𝅘𝅥/p |);`|
+| `a` | Accesa el golpe abierto  | `congas (marcha |  𝄽 𝅘𝅥 /a 𝄽 𝅘𝅥 /a |);`|
+| `s` | Accesa el golpe slap  | `congas (marcha |  𝄽 𝅘𝅥 /s 𝄽 𝅘𝅥 /s |);`|
+| `m` | Accesa el golpe muteado   | `congas (marcha |  𝄽 𝅘𝅥 /m 𝄽 𝅘𝅥 /m |);`|
+| `t` | Accesa el golpe con el talon de la mano/palma   | `congas (marcha |  𝄽 𝅘𝅥 /t 𝄽 𝅘𝅥 /t |);`|
+| `p` | Accesa el golpe con la punta de la mano/palma  | `congas (marcha |  𝄽 𝅘𝅥 /p 𝄽 𝅘𝅥 /p |);`|
 
 ### Comandos de bombo
 
@@ -145,4 +145,4 @@ Consulta códigos de ejemplo en el siguiente link: [https://luisnavarrodelangel.
 | `volumen` | Cambia el volumen  |`contratiempo (volumen 0.95);`|
 | `paneo` | Mueve el instrumento a la izquierda, derecha o centro  |`contratiempo (paneo 1);`|
 | `octava` | Hace el instrumento más grave o agudo  |`contratiempo (octava 4);`|
-| `ritmo` | Estable la el rítmo del instrumento  | `contratiempo ( v 0.9, ritmo |𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅮 𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅮|);`|
+| `ritmo` | Estable la el rítmo del instrumento  | `contratiempo ( v 0.9, ritmo |𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅮 𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅮 |);`|
