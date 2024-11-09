@@ -1,4 +1,5 @@
-# Documentación de Seis8s (Taller de Transferencias Aurales 2024)
+# Documentación de Seis8s
+##(Taller de Transferencias Aurales 2024)
 
 ## Diapositivas
 
@@ -6,10 +7,20 @@
 
 ## Lecturas recomendadas
 
-- La cumbia como matriz sonora de Latinoamérica: los colombias de Monterrey-México, 1960-2008, interculturalidad, identidad, espacio y cuerpo: https://repositorio.colmex.mx/concern/theses/kk91fk66p?locale=es
-- La invención de la música latinoamericana: https://fce.com.ar/tienda/arte/la-invencion-de-la-musica-latinoamericana/?srsltid=AfmBOoogMJTlc1FkT7jpPyDxYVKEtzCkHF3iiVnZ8fg-h8qlvYKIyVrI
+- La cumbia como matriz sonora de Latinoamérica: los colombias de Monterrey-México, 1960-2008, interculturalidad, identidad, espacio y cuerpo: [https://repositorio.colmex.mx/concern/theses/kk91fk66p?locale=es](https://repositorio.colmex.mx/concern/theses/kk91fk66p?locale=es)
+- La invención de la música latinoamericana: [https://fce.com.ar/tienda/arte/la-invencion-de-la-musica-latinoamericana/?srsltid=AfmBOoogMJTlc1FkT7jpPyDxYVKEtzCkHF3iiVnZ8fg-h8qlvYKIyVrI](https://fce.com.ar/tienda/arte/la-invencion-de-la-musica-latinoamericana/?srsltid=AfmBOoogMJTlc1FkT7jpPyDxYVKEtzCkHF3iiVnZ8fg-h8qlvYKIyVrI)
 
 ## Atajos con el teclado (shortcuts)
+
+| Descripción | Atajo Windows       | Atajo Mac       | Image                         |
+|----------------||----------------|----------------|-------------------------------|
+| Ejecutar/enviar saludos || Shift + Enter | Shift + Enter | ![Alt text](images/saludos.png)   |
+| Ejecutar el código || Shift + Enter| Shift + Enter | ![Alt text](images/play.png)   |
+| Detener el código || Ctrl + '.' | Ctrl + '.' | ![Alt text](images/stop.png)   |
+| Agrandar texto || Ctrl + '+' | Command + '+' | ![Alt text](images/zoomin.png)   |
+| Achicar texto ||Ctrl + '-' | Command + '-' | ![Alt text](images/zoomout.png)   |
+| Descargar documento  ||Ctrl + s | Command + s | ![Alt text](images/save.png)   |
+| Abrir documento ||Ctrl + o | Command + o | ![Alt text](images/open.png)   |
 
 
 ## Codigos de ejemplo
