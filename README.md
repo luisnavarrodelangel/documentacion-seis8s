@@ -104,8 +104,9 @@ Consulta códigos de ejemplo en el siguiente link: [https://luisnavarrodelangel.
 | `volumen` | Cambia el volumen  |`teclado (volumen 0.95);`|
 | `paneo` | Mueve el instrumento a la izquierda, derecha o centro  |`teclado (paneo 0);`|
 | `octava` | Hace el instrumento más grave o agudo  |`teclado (octava 4);`|
-| `acompañamiento` | Estable la línea melódica y rítmica del instrumento  | ` teclado (acompañamiento | 𝄽  𝅘𝅥  𝄽  𝅘𝅥 || 𝄽  𝅘𝅥  𝄽  𝅘𝅥 |);`|
-| `acompanamiento` | Sínonimo de  `acompañamiento` | ` teclado (acompanamiento | 𝄽  𝅘𝅥  𝄽  𝅘𝅥 || 𝄽  𝅘𝅥  𝄽  𝅘𝅥 |);`|
+| `acompañamiento` | Estable la línea melódica y rítmica del instrumento  |`teclado (acompañamiento | 𝄽  𝅘𝅥  𝄽  𝅘𝅥
+|| 𝄽  𝅘𝅥  𝄽  𝅘𝅥 |); `|
+| `acompanamiento` | Sínonimo de  `acompañamiento` | `teclado (acompanamiento | 𝄽  𝅘𝅥  𝄽  𝅘𝅥 || 𝄽  𝅘𝅥  𝄽  𝅘𝅥 |);`|
 
 ### Comandos de las congas
 
@@ -132,7 +133,7 @@ Consulta códigos de ejemplo en el siguiente link: [https://luisnavarrodelangel.
 | `volumen` | Cambia el volumen  |`bombo (volumen 0.95);`|
 | `paneo` | Mueve el instrumento a la izquierda, derecha o centro  |`bombo (paneo 1);`|
 | `octava` | Hace el instrumento más grave o agudo  |`bombo (octava 4);`|
-| `ritmo` | Estable la el rítmo del instrumento  | ` bombo (ritmo | 𝅘𝅥  𝄽 𝅘𝅥 𝅘𝅥 |); `|
+| `ritmo` | Estable la el rítmo del instrumento  | `bombo (ritmo |𝅘𝅥  𝄽 𝅘𝅥 𝅘𝅥 |);`|
 
 ### Comandos del contratiempo
 
