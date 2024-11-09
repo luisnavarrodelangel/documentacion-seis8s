@@ -12,20 +12,32 @@
 
 ## Atajos con el teclado (shortcuts)
 
-| Descripción | Atajo Windows       | Atajo Mac       | Image                         |
-|----------------||----------------|----------------|-------------------------------|
-| Ejecutar/enviar saludos || Shift + Enter | Shift + Enter | ![Alt text](images/saludos.png)   |
-| Ejecutar el código || Shift + Enter| Shift + Enter | ![Alt text](images/play.png)   |
-| Detener el código || Ctrl + '.' | Ctrl + '.' | ![Alt text](images/stop.png)   |
-| Agrandar texto || Ctrl + '+' | Command + '+' | ![Alt text](images/zoomin.png)   |
-| Achicar texto ||Ctrl + '-' | Command + '-' | ![Alt text](images/zoomout.png)   |
+| Descripción | Atajo Windows       | Atajo Mac       | Imagen                         |
+|----------------|----------------|----------------|-------------------------------|
+| Ejecutar/enviar saludos | Shift + Enter | Shift + Enter | ![Alt text](images/saludos.png)   |
+| Ejecutar el código | Shift + Enter| Shift + Enter | ![Alt text](images/play.png)   |
+| Detener el código | Ctrl + '.' | Ctrl + '.' | ![Alt text](images/stop.png)   |
+| Agrandar texto | Ctrl + '+' | Command + '+' | ![Alt text](images/zoomin.png)   |
+| Achicar texto |Ctrl + '-' | Command + '-' | ![Alt text](images/zoomout.png)   |
 | Descargar documento  ||Ctrl + s | Command + s | ![Alt text](images/save.png)   |
-| Abrir documento ||Ctrl + o | Command + o | ![Alt text](images/open.png)   |
+| Abrir documento |Ctrl + o | Command + o | ![Alt text](images/open.png)   |
 
 
 ## Codigos de ejemplo
 
+Consulta códigos de ejemplo en el siguiente link: [https://luisnavarrodelangel.github.io/ejemplos-seis8s/ejemplos](https://luisnavarrodelangel.github.io/ejemplos-seis8s/ejemplos)
+
 ## Comandos globales
+
+| Comando |Descripción| Ejemplo
+|----------------|----------------|----------------|
+| tempo | Establece la velocidad de la música |tempo 80;|
+| paneo | Mueve el sonido a la izquierda, derecha o en medio |paneo 0;|
+| volumen | Establece el volumen maestro/general de la música |volumen 0.85;|
+| armonia | Establece los acordes de los instrumentos |armonia |C||Dm|;|
+| acordes | Es un comando sinónimo del comando armonia|acordes |C||Dm|;|
+
+
 
 ## Comandos de los instrumentos
 
