@@ -19,7 +19,7 @@
 | Detener el código | Ctrl + '.' | Ctrl + '.' | ![Alt text](images/stop.png)   |
 | Agrandar texto | Ctrl + '+' | Command + '+' | ![Alt text](images/zoomin.png)   |
 | Achicar texto |Ctrl + '-' | Command + '-' | ![Alt text](images/zoomout.png)   |
-| Descargar documento  ||Ctrl + s | Command + s | ![Alt text](images/save.png)   |
+| Descargar documento  |Ctrl + s | Command + s | ![Alt text](images/save.png)   |
 | Abrir documento |Ctrl + o | Command + o | ![Alt text](images/open.png)   |
 
 
@@ -31,11 +31,11 @@ Consulta códigos de ejemplo en el siguiente link: [https://luisnavarrodelangel.
 
 | Comando |Descripción| Ejemplo
 |----------------|----------------|----------------|
-| tempo | Establece la velocidad de la música |tempo 80;|
-| paneo | Mueve el sonido a la izquierda, derecha o en medio |paneo 0;|
-| volumen | Establece el volumen maestro/general de la música |volumen 0.85;|
-| armonia | Establece los acordes de los instrumentos |armonia |C||Dm|;|
-| acordes | Es un comando sinónimo del comando armonia|acordes |C||Dm|;|
+| `tempo` | Establece la velocidad de la música |`tempo 80;`|
+| `paneo` | Mueve el sonido a la izquierda, derecha o en medio |`paneo 0;`|
+| `volumen` | Establece el volumen maestro/general de la música |`volumen 0.85;`|
+| `armonia` | Establece los acordes de los instrumentos |`armonia |C||Dm|;`|
+| `acordes` | Es un comando sinónimo del comando armonia|`acordes |C||Dm|;`|
 
 
 
