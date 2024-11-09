@@ -145,4 +145,4 @@ Consulta códigos de ejemplo en el siguiente link: [https://luisnavarrodelangel.
 | `volumen` | Cambia el volumen  |`contratiempo (volumen 0.95);`|
 | `paneo` | Mueve el instrumento a la izquierda, derecha o centro  |`contratiempo (paneo 1);`|
 | `octava` | Hace el instrumento más grave o agudo  |`contratiempo (octava 4);`|
-| `ritmo` | Estable la el rítmo del instrumento  | ` contratiempo ( v 0.9, ritmo |𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅮 𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅮|);`|
+| `ritmo` | Estable la el rítmo del instrumento  | `contratiempo ( v 0.9, ritmo |𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅮 𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅮|);`|
