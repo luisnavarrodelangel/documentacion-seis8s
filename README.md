@@ -1,4 +1,4 @@
-# Documentación de Seis8s ([seis8s.org](seis8s.org))
+# Documentación de Seis8s ([seis8s.org](https://seis8s.org/))
 ##(Taller de Transferencias Aurales 2024)
 
 ## Diapositivas
