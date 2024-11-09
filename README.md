@@ -66,6 +66,14 @@ Consulta códigos de ejemplo en el siguiente link: [https://luisnavarrodelangel.
 
 ### Comandos del bajo
 
+| Comando |Descripción| Ejemplo
+|----------------|----------------|----------------|
+| `bajo` | Toca un bajo default |`bajo;`|
+| `sonido` | Cambia el sample o muestra  |`bajo (sonido 6);`|
+| `volumen` | Cambia el volumen  |`bajo (volumen 0.85);`|
+| `paneo` | Mueve el instrumento a la izquierda, derecha o centro  |`bajo (paneo 0.5);`|
+| `octava` | Hace el instrumento más grave o agudo  |`bajo (octava 6);`|
+| `tumbao` | Estable la línea melódica y rítmica del instrumento  |`bajo (tumbao | 𝅘𝅥  𝄽  𝅘𝅥 /3 𝅘𝅥 /5 || 𝅘𝅥  𝄽  𝅘𝅥 /3 𝅘𝅥 /5 |);`|
 
 
 ### Comandos del teclado
