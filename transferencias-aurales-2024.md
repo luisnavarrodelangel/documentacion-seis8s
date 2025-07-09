@@ -51,6 +51,7 @@ Consulta códigos de ejemplo en el siguiente link: [https://luisnavarrodelangel.
 | m | menor |
 | min  | menor |
 | min7  | menor siete |
+| 7 | siete|
 | dim | disminuido|
 |m7b5| semi disminuido|
 | aug | aumentado|
@@ -146,3 +147,15 @@ Consulta códigos de ejemplo en el siguiente link: [https://luisnavarrodelangel.
 | `paneo` | Mueve el instrumento a la izquierda, derecha o centro  |`contratiempo (paneo 1);`|
 | `octava` | Hace el instrumento más grave o agudo  |`contratiempo (octava 4);`|
 | `ritmo` | Establece el rítmo del instrumento  | `contratiempo ( v 0.9, ritmo |𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅮 𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅮 |);`|
+
+
+### Comandos del guiro
+
+| Comando |Descripción| Ejemplo
+|----------------|----------------|----------------|
+| `guiro` | Toca un guiro default |`guiro;`|
+| `sonido` | Cambia el sample o muestra  |`guiro (sonido 1);`|
+| `volumen` | Cambia el volumen  |`guiro (volumen 0.95);`|
+| `paneo` | Mueve el instrumento a la izquierda, derecha o centro  |`guiro (paneo 1);`|
+| `octava` | Hace el instrumento más grave o agudo  |`guiro (octava 4);`|
+| `ritmo` | Establece el rítmo del instrumento  | `guiro ( v 0.9, ritmo |𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅮 𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅮 |);`|
