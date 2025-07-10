@@ -40,6 +40,11 @@
       background: white
     }
 
+    .subDetails {
+      margin-left: 1.5em;
+      
+    }
+
     summary {
       font-weight: bold;
       cursor: pointer;
@@ -91,7 +96,7 @@ code, pre {
     <li>What are your expectations for this workshop?</li>
   </ul>
 
-  <details >
+  <details class="subDetails">
     <summary><b>Luis Navarro Del Angel (he/him)</b></summary>
     <p> I am a new media artist from Mexico City, currently based in Hamilton, Ontario. My practice revolves around electronic Latin dance music by means of software and code. I currently perform with a web-based interactive application of my authorship called Seis8s, which revolves around Spanish-language commands related to Latin dance music. I explore the rhythms of Cumbia, Guaguancó, and Salsa in their electronic form.</p>
 
@@ -115,13 +120,30 @@ code, pre {
 
 <details >
   <summary><b> What is Seis8s? </b></summary>
-  <p>Seis8s (seis8s.org) is a Spanish-inflected, web-based live coding environment designed to foreground Latin electronic dance music traditions, especially cumbia music, through real-time programming of rhythmic and melodic patterns. Seis8s can be accessed at <a href="https://seis8s.org/" target="_blank">https://seis8s.org/</a></p>
+  <p>Seis8s is a Spanish-inflected, web-based live coding environment designed to foreground Latin electronic dance music traditions, especially cumbia music, through real-time programming of rhythmic and melodic patterns. Seis8s can be accessed at <a href="https://seis8s.org/" target="_blank">https://seis8s.org/</a></p>
 
-  <p>Seis8s is influenced by traditions of socially conscious Latin dance music — what Agurto (2021) describes as “texts and musical markers that poetically express political, historical, and class awareness of the shared Latino/Latin American existences, identities, and experiences” (xix). These forms reflect on migration, poverty, and racism while also producing a sense of joy, resistance, and collective identity through festive rhythms. Examples include Cumbia Villera, a raw and rebellious 1990s Argentine style that addressed economic disparity, and Salsa dura, which in 1970s New York became a vehicle for Afro-Latin resistance through syncopated, improvisatory sound.</p>
+  <div style="display: flex; flex-direction: row; gap: 20px; margin-top: 1em; flex-wrap: wrap;">
 
-  <p>Seis8s extends these traditions into the realm of code, to speculate the look and feel of a  computer-music language grounded in Spanish language, and addressing an imagined community of users with shared cultural, political, economic, historical, and technological traits.</p>
+    <!-- Left: Text -->
+    <div style="flex: 0.7; ">
+      <p>
+        Seis8s is influenced by traditions of socially conscious Latin dance music — what musicologist <a href="https://www.fau.edu/artsandletters/music/faculty/andresespinoza/" target="_blank">Andrés Agurto</a> (2021) describes as <strong>“texts and musical markers that poetically express political, historical, and class awareness of the shared Latino/Latin American existences, identities, and experiences” </strong>. </p>
+        
+        <p>This music reflects on migration, poverty, and racism while also producing a sense of joy, resistance, and collective identity through festive rhythms. Examples include <a href="https://en.wikipedia.org/wiki/Cumbia_villera" target="_blank"> cumbia villera</a>, a raw and rebellious 1990s Argentine style that addressed economic disparity, and <a href="https://en.wikipedia.org/wiki/Salsa_dura" target="_blank">salsa dura</a>, which in 1970s New York became a vehicle for Afro-Latin resistance through syncopated, improvisatory sound.
+      </p>
+    </div>
+  
+    <!-- Right: Image -->
+    <div style="flex: 0.3;">
+      <img src="images/salsa-consciente.jpeg" alt="Salsa Consciente" style="width: 50%; height: auto; border-radius: 8px;">
+    </div>
+  
+  </div>
+  
 
-  <p>Seis8s was part of my PhD dissertation entitled <i> Culturally situated programming platforms: seis8s, a live-coding language for electronic latin dance music</i> (2023).</p>
+  <p>Seis8s seeks to integrate the social and musical markers of Latin dance traditions into the infrastructure of computer music by speculating on what a computer-music language might look and feel like when grounded in the Spanish language and shaped by Latin American sensibilities. <strong>In doing so, Seis8s contributes to a broader awareness of how technologies are developed, used, and reimagined in the Global South</strong>.</p>
+
+  <p>Seis8s was part of my PhD dissertation entitled <a href="http://hdl.handle.net/11375/28815" target="_blank"><i>Culturally situated programming platforms: seis8s, a live-coding language for electronic latin dance music</i></a> (2023).</p>
 
   <!-- <p>Seis8s is a web-based <a href="https://en.wikipedia.org/wiki/Live_coding" target="_blank"> live coding </a> language that enables real-time interaction with digital audio and localized musical knowledge. Seis8s revolves around Spanish-language commands related to <a href="https://en.wikipedia.org/wiki/Latin_dance" target="_blank">Latin dance music</a>.    </p> -->
 
@@ -135,8 +157,9 @@ code, pre {
 
 <details >
   <summary><b>Exploring the Interface</b></summary>
-
-  <p>Overview of the Seis8s live coding interface and layout:</p>
+  <br>
+  <details class="subDetails"><summary><b>Overview and layout</b></summary>
+  <br>
 
   <div style="position: relative; display: inline-block;">
     <img src="images/seis8s-nueva-interfaz.png" alt="Seis8s interface" width="800">
@@ -220,46 +243,62 @@ code, pre {
   Output Console
 </div>
 </div>
+</details>
 
-<details >
+<details class="subDetails">
 <summary><b>About the visual aesthetic</b></summary>
 
-<p>Seis8s interface intentionally resists sterile UI norms such as Apple’s Human Interface Guide lines or Google’s Material Design system. Instead, it draws inspiration from the vivid and chaotic energy of Peruvian Chicha poster art, which is the ”Peruvian Kitsch thetic ... born in the 1980s” that deliberately breaks from modernist design principles, layering bold colors, irregular letterforms, and multiple fonts in ways that feel exuberant and unruly.
+<div style="display: flex; align-items: flex-start; gap: 20px; margin-top: 1em; flex-wrap: wrap;">
+
+
+    <!-- Left: Text -->
+    <div style="flex: 2; min-width: 300px;">
+<p>Seis8s interface intentionally resists sterile UI norms such as Apple’s Human Interface Guide lines or Google’s Material Design system. Instead, it draws inspiration from the vivid and chaotic energy of <strong>Peruvian Chicha poster art</strong>, which is the ”Peruvian Kitsch aesthetic ... born in the 1980s” that deliberately breaks from modernist design principles, layering bold colors, irregular letterforms, and multiple fonts in ways that feel exuberant and unruly (<a href="https://en.wikipedia.org/wiki/Chicha_(art)" target="_blank">Wikipedia</a>).
 </p>
 
-<p>The color scheme was derived from the work of Chicha
-  artist Yefferson Huam´an, particularly a poster featured on
-  Movimientos.org[3], which mixes saturated green, orange,
-  and purple tones in asymmetric, high-contrast layouts.</p>
+<p>The design process began in Figma, where I composed
+  the interface as a flat graphic using <a href="https://en.wikipedia.org/wiki/SVG" target="_blank">SVG</a>. Once exported, the SVG file was intervened with JavaScript to transform it into an interactive layer, allowing users to click
+  on buttons, launch sound events directly on top of the artwork.</p>
+  
+  <p>The use of SVG as an interface foundation emerged not
+  only from aesthetic goals, but also from pedagogical insight.
+  While teaching a course on design and code in 2023, I came
+  to appreciate SVG’s expressive power which allows to draw
+  complex layouts, then render them in the browser exactly as
+  envisioned, without having to deconstruct every visual into
+  CSS grids, box models, or flex alignment rules. </p>
 
-  <div style="position: relative; display: inline-block;">
-    <img src="images/piscodisco-FORMATO-ALTA-WEB-819x1024_YeffersonHuaman.png" alt="Seis8s interface" width="500">
+
+    <p>
+      The color scheme was derived from the work of Chicha artist
+      <a href="https://movimientos.org.uk/latest/yefferson-huaman-a-legend-and-contemporary-pioneer-of-chicha-art-and-culture/" target="_blank">
+        Yefferson Huamán
+      </a>,
+      particularly the poster on the right, which mixes saturated green, orange,
+      and purple tones in asymmetric, high-contrast layouts.
+    </p>
+  </div>
+
+  <!-- Right: Image -->
+  <div style="flex: 1; min-width: 200px;">
+    <img src="images/piscodisco-FORMATO-ALTA-WEB-819x1024_YeffersonHuaman.png" alt="Chicha art by Yefferson Huamán" style="width: 100%; height: auto; border-radius: 8px;">
+  </div>
+
 </div>
 
-<p>The design process began in Figma, where I composed
-the interface as a flat graphic using SVGs. Once exported,
-the SVG file was imported into the Vue.js framework and
-transformed into an interactive layer—allowing users to click
-on buttons, launch sound events, or interact with timeline
-controls directly on top of the artwork.</p>
 
-<p>The use of SVG as an interface foundation emerged not
-only from aesthetic goals, but also from pedagogical insight.
-While teaching a course on design and code in 2023, I came
-to appreciate SVG’s expressive power which allows to draw
-complex layouts, then render them in the browser exactly as
-envisioned, without having to deconstruct every visual into
-CSS grids, box models, or flex alignment rules. This made
-SVG an appealing medium for expressing the visual culture</p>
 
+
+<h3>More about Peruvian Chicha also known as amazonic cumbia or psicodelic cumbia</h3>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kAap4MCq6WY?si=JTGbqp-FgjRMpSPn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 <br>
-<a href="https://es.wikipedia.org/wiki/Los_Mirlos" target="_blank">Los Mirlos</a> - La Danza de Los Mirlos / Cumbia de Los Pajaritos (Perú. 1973)
+<a href="https://es.wikipedia.org/wiki/Los_Mirlos" target="_blank">Los Mirlos</a> - La Danza de Los Mirlos / Cumbia de Los Pajaritos (Perú, 1973, 3 min)
 </details>
 
 
-<details ><summary><b>The following table shows shortcuts to navigate and code more efficiently within Seis8s:</b></summary>
-<br>
+<details class="subDetails"><summary><b>Shortcuts</b></summary>
+
+<p>The following table shows shortcuts to navigate and code more efficiently within Seis8s:</p>
 
 <table border="1" cellspacing="0" cellpadding="8">
   <thead>
@@ -333,19 +372,61 @@ SVG an appealing medium for expressing the visual culture</p>
   </ol>
   </details> -->
 
-<details >
+<details class="subDetails" >
   <summary><b>Activity: Explore Code Examples</b></summary>
-  <p>Participants remix and experiment with basic Seis8s code templates:</p>
-  <ol>
-    <li>Go to <a href="https://luisnavarrodelangel.github.io/ejemplos-seis8s/ejemplos" target="_blank">https://luisnavarrodelangel.github.io/ejemplos-seis8s/ejemplos</a></li>
-    <li>Choose an example, and copy/paste them into Seis8s</li>
-    <li>Press Shift + Enter to run the example in Seis8s</li>
+    <ol>
+    <li>Copy the code examples below, one at a time, into Seis8s</li>
+    <li>Press Shift + Enter to run the code in Seis8s</li>
     <li>Modify the code using the global commands below to change the sound or composition</li>
+    <li>Modify the rhythmic notation of the individual instruments based on the rhythmic notation section below </li>
   </ol>
   </p>
+
+  <details>
+    <summary class="subDetails"><b>Example 1: Simple Güiro Groove</b></summary>
+    <pre><code class="notation">
+tempo 85;
+
+// A steady güiro rhythm
+guiro ritmo 𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅮 𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅮
+</code></pre>
+</details>  
+
+  <details>
+    <summary class="subDetails"><b>Example 2: Güiro and Congas Groove</b></summary>
+    <pre><code class="notation">
+    tempo 85
+    volumen 0.85
+
+    // Guiro rhythm
+    guiro (volumen 0.8) ritmo 𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅮 𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅮
+
+    // Conga march/rhythm with slap and open tone alternation
+    congas (volumen 1)  marcha 𝅘𝅥 /s 𝅘𝅥 /a 𝅘𝅥 /s 𝅘𝅥 /a
+    </code></pre>
+    </details>  
+
+<details>
+  <summary class="subDetails"><b>Example 3: Güiro, Congas, and Bass Groove</b></summary>
+  <pre><code class="notation">
+  tempo 85
+  volumen 0.85
+  armonia [Cmaj | Am | Fmaj | G7]
+
+  // Guiro rhythm
+  guiro (volumen 0.8) ritmo 𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅮 𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅮
+
+  // Conga march/rhythm with slap and open tone alternation
+  congas (volumen 1)  marcha 𝅘𝅥 /s 𝅘𝅥 /a 𝅘𝅥 /s 𝅘𝅥 /a
+
+  // Bass line/tumbao pattern
+  bajo (v 1, s 3) tumbao [ 𝅘𝅥  𝄽  𝅘𝅥 /3 𝅘𝅥 /5 | 𝅘𝅥  𝄽  𝅘𝅥 /3 𝅘𝅥 /5  | 𝅘𝅥  𝄽  𝅘𝅥 /3 𝅘𝅥 /5 | 𝅘𝅥  𝄽  𝅘𝅥 /3 𝅘𝅥 /5 ]
+
+  </code></pre>
+  </details>  
 </details>
 
-<details ><summary><b>About Global Commands</b></summary>
+<details class="subDetails" ><summary><b>About Global Commands</b></summary>
 
   <p>The following commands control instruments and composition globally:</p>
 
@@ -455,49 +536,10 @@ SVG an appealing medium for expressing the visual culture</p>
       <td>Suspended Fourth</td>
     </tr>
   </tbody>
-</table>
-
-
-  
+</table> 
 </details>
 
-</details>
-
-<hr>
-
-<h3>🎶 What is Latin Dance Music? (20 min)</h3>
-
-<details >
-  <summary><b>Activity: Watch Introductory Video</b></summary>
-  <p>Short video introduction to Latin dance rhythms and instrumentation:</p>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/Ig-Y6xjLV3s?si=UiHMTPHYZWAOcXA6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-</details>
-
-<details >
-  <summary><b>Activity: Collective Listening</b></summary>
-  <p>Listen to a cumbia song with guided prompts:</p>
-  <ul>
-    <li>What instruments do you hear?</li>
-    <li>What rhythmic elements stand out?</li>
-    <li>What kind of groove does the music create?</li>
-  </ul>
-
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/qqqMyxv5al4?si=-EkgUbru0tA3AOfm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-  <br>
-  <a href="https://en.wikipedia.org/wiki/Raymix" target="_blank"> Raymix</a> - Oye Mujer
-
-</details>
-
-<hr>
-
-<h3>☕ Break (30 min)</h3>
-
-<hr>
-
-<h3>🥁 Exploring Cumbia with Seis8s (1 hr 30 min)</h3>
-
-<details > <summary><b>About the Rhythmic Notation</b></summary>
+<details class="subDetails"> <summary><b>About the Rhythmic Notation</b></summary>
 
   <p>Seis8s uses musical Unicode characters to visually represent rhythmic values such as notes and rests directly within the code interface. This aims to provide an intuitive and expressive way to connect musical notation with coding syntax.</p>
   
@@ -564,8 +606,43 @@ SVG an appealing medium for expressing the visual culture</p>
       </tr>
     </tbody>
   </table>
-  
 </details>
+
+</details>
+
+<hr>
+
+<h3>🎶 What is Latin Dance Music? (20 min)</h3>
+
+<details >
+  <summary><b>Activity: Watch Introductory Video</b></summary>
+  <p>A video introduction to Latin dance music:</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Ig-Y6xjLV3s?si=UiHMTPHYZWAOcXA6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <p>5 Styles of Latin Music You Need to Know - Joanna Rants (2018, 9 min)</p>
+
+</details>
+
+<details><summary><b>Activity: Watch Video About Cumbia</b></summary>
+
+  <p>A video introduction to Cumbia Music:</p>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/55mpzrRHmFA?si=GOgIOAQXwTIunkl-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  <p>Why Shakira loves this African beat (2019, 7min 30s)  </p>
+</details>
+
+
+
+<hr>
+
+<h3>☕ Break (30 min)</h3>
+
+<hr>
+
+<h3>🥁 Exploring Cumbia with Seis8s (1 hr 30 min)</h3>
+
+
 
 <details>
   <summary><b>🟠 The Güiro Rhythm (20 min)</b></summary>
@@ -593,7 +670,7 @@ SVG an appealing medium for expressing the visual culture</p>
   
   </div>
   
-  <details><summary><b>Guiro Commands</b></summary>
+  <details class="subDetails"><summary><b>Guiro Commands</b></summary>
 
  
 
@@ -609,7 +686,7 @@ SVG an appealing medium for expressing the visual culture</p>
         <tr>
           <td><code>guiro</code></td>
           <td>Plays a default guiro sound</td>
-          <td><code>guiro;</code></td>
+          <td><code>guiro</code></td>
         </tr>
         <tr>
           <td><code>sonido</code></td>
@@ -626,21 +703,21 @@ SVG an appealing medium for expressing the visual culture</p>
           <td>Pans the individual sound left, right, or center</td>
           <td><code>guiro (paneo 1)</code></td>
         </tr>
-        <tr>
+        <!-- <tr>
           <td><code>octava</code></td>
           <td>Changes the pitch by octave</td>
           <td><code>guiro (octava 4)</code></td>
-        </tr>
+        </tr> -->
         <tr>
           <td><code>ritmo</code></td>
           <td>Defines the rhythmic pattern</td>
-          <td><code>guiro (v 0.9) ritmo 𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅮 𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅮</code></td>
+          <td><code>guiro (v 0.9) ritmo <span class="notation"> 𝅘𝅥𝅮 𝅘𝅥𝅮 𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅮</span></code></td>
         </tr>
       </tbody>
     </table>
     </details>
 
-<details><summary><b>Activity: Create a Guiro Rhytm</b></summary>
+<details class="subDetails"><summary><b>Activity: Create a Guiro Rhythm</b></summary>
   <ol>
     <li>Watch short video tutorial on güiro patterns</li>
 
@@ -681,9 +758,9 @@ SVG an appealing medium for expressing the visual culture</p>
   
   </div>
   
-  <details><summary><b>Congas Commands</b></summary>
+  <details class="subDetails"><summary><b>Congas Commands</b></summary>
 
- 
+
 
     <h3>Conga Commands</h3>
 
@@ -703,7 +780,7 @@ SVG an appealing medium for expressing the visual culture</p>
         </tr>
         <tr>
           <td><code>sonido</code></td>
-          <td>Selects the sample or timbre</td>
+          <td>Selects the sample or recording</td>
           <td><code>congas (sonido 1)</code></td>
         </tr>
         <tr>
@@ -716,47 +793,47 @@ SVG an appealing medium for expressing the visual culture</p>
           <td>Pans the sound left, right, or center</td>
           <td><code>congas (paneo 1)</code></td>
         </tr>
-        <tr>
+        <!-- <tr>
           <td><code>octava</code></td>
           <td>Changes the pitch by octave</td>
           <td><code>congas (octava 4)</code></td>
-        </tr>
+        </tr> -->
         <tr>
           <td><code>marcha</code></td>
           <td>Defines the rhythm pattern</td>
-          <td><code>congas marcha 𝄽 𝅘𝅥 𝄽 𝅘𝅥</code></td>
+          <td><code>congas marcha <span class="notation">𝄽 𝅘𝅥 𝄽 𝅘𝅥</span></code></td>
         </tr>
         <tr>
           <td><code>a</code></td>
           <td>Triggers the open tone</td>
-          <td><code>congas marcha 𝄽 𝅘𝅥 /a 𝄽 𝅘𝅥 /a</code></td>
+          <td><code>congas marcha <span class="notation">𝄽 𝅘𝅥 /a 𝄽 𝅘𝅥 /a</span></code></td>
         </tr>
         <tr>
           <td><code>s</code></td>
           <td>Triggers the slap tone</td>
-          <td><code>congas marcha 𝄽 𝅘𝅥 /s 𝄽 𝅘𝅥 /s</code></td>
+          <td><code>congas marcha <span class="notation">𝄽 𝅘𝅥 /s 𝄽 𝅘𝅥 /s</span></code></td>
         </tr>
         <tr>
           <td><code>m</code></td>
           <td>Triggers the muted tone</td>
-          <td><code>congas marcha 𝄽 𝅘𝅥 /m 𝄽 𝅘𝅥 /m</code></td>
+          <td><code>congas marcha <span class="notation">𝄽 𝅘𝅥 /m 𝄽 𝅘𝅥 /m</span></code></td>
         </tr>
         <tr>
           <td><code>t</code></td>
           <td>Triggers the heel-of-hand tone</td>
-          <td><code>congas marcha 𝄽 𝅘𝅥 /t 𝄽 𝅘𝅥 /t</code></td>
+          <td><code>congas marcha <span class="notation">𝄽 𝅘𝅥 /t 𝄽 𝅘𝅥 /t</span></code></td>
         </tr>
         <tr>
           <td><code>p</code></td>
           <td>Triggers the fingertip tone</td>
-          <td><code>congas marcha 𝄽 𝅘𝅥 /p 𝄽 𝅘𝅥 /p</code></td>
+          <td><code>congas marcha <span class="notation"> 𝄽 𝅘𝅥 /p 𝄽 𝅘𝅥 /p</span></code></td>
         </tr>
       </tbody>
     </table>
     
     </details>
 
-<details><summary><b>Activity: Create a Conga March</b></summary>
+<details class="subDetails"><summary><b>Activity: Create a Conga March</b></summary>
   <ol>
     <li>Watch short video tutorial on conga patterns</li>
 
@@ -771,29 +848,224 @@ SVG an appealing medium for expressing the visual culture</p>
 </details>
 </details>
 
-<details>
-  <summary><b>🟢 The Bass Line (20 min)</b></summary>
+<details class="subDetails">
+  <summary><b>Activity: Collective Listening I</b></summary>
+  <p>Listen to a cumbia song with guided prompts:</p>
   <ul>
-    <li>Watch tutorial</li>
-    <li>Compose a cumbia bass line</li>
+    <li>What instruments do you hear?</li>
+    <li>Can you recognize the guiro and conga rhythm and march?</li>
+  
   </ul>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/PhYJBvVTkVk?si=UxLuoqLic-f0ahYJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <br>
+  <a href="https://en.wikipedia.org/wiki/Kumbia_Queers" target="_blank">Kumbia Queers - Chica de Calendario (Argentina, 2012, 3 min)</a>
+  </a> 
+</details>
+<details>
+  <summary><b>🟢 The Bajo Tumbao (bass line) (20 min)</b></summary>
+
+  <div style="display: flex; align-items: flex-start; gap: 10px; margin-top: 1em;">
+
+    <!-- Left column: image -->
+    <div style="flex: 1; min-width: 200px;">
+      <img src="images/bass.png" alt="Seis8s interface" width="25%" style="border-radius: 8px; margin-left: 10em;">
+    </div>
+  
+    <!-- Right column: text -->
+    <div style="flex: 2;">
+      <p>
+        The electric bass guitar most commonly has four strings, though five- and six-stringed models are also built. Since the mid-1950s, the bass guitar has often replaced the double bass in popular music due to its lighter weight, smaller size and easier portability, most models' inclusion of frets for easier intonation, and electromagnetic pickups for amplification (<a href="https://en.wikipedia.org/wiki/Bass_guitar" target="_blank">Wikipedia</a>). 
+      </p>      
+      <p>In music of Afro-Cuban origin, <strong>tumbao</strong> is the basic rhythm played on the bass. In North America, the basic conga drum pattern used in popular music is also called tumbao[citation needed]. In the contemporary form of Cuban popular dance music known as timba, piano guajeos are known as tumbaos (<a href="https://en.wikipedia.org/wiki/Tumbao" target="_blank">Wikipedia</a>).</p>
+      </p>
+    </div>  
+  </div>
+
+  <details ><summary><b>Bajo Commands</b></summary>
+    <h3>Bass (Bajo) Commands</h3>
+
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Description</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>bajo</code></td>
+      <td>Plays a default bass sound</td>
+      <td><code>bajo</code></td>
+    </tr>
+    <tr>
+      <td><code>sonido</code></td>
+      <td>Selects the sample </td>
+      <td><code>bajo (sonido 6)</code></td>
+    </tr>
+    <tr>
+      <td><code>volumen</code></td>
+      <td>Adjusts the volume</td>
+      <td><code>bajo (volumen 0.85)</code></td>
+    </tr>
+    <tr>
+      <td><code>paneo</code></td>
+      <td>Pans the sound left, right, or center</td>
+      <td><code>bajo (paneo 0.5)</code></td>
+    </tr>
+    <tr>
+      <td><code>octava</code></td>
+      <td>Changes the pitch by octave</td>
+      <td><code>bajo (octava 6)</code></td>
+    </tr>
+    <tr>
+      <td><code>tumbao</code></td>
+      <td>Defines the melodic and rhythmic pattern of the bass</td>
+      <td><code>bajo tumbao <span class="notation">𝅘𝅥 𝄽 𝅘𝅥 /3 𝅘𝅥 /5</span></code></td>
+    </tr>
+  </tbody>
+</table>
+    </details>
+
+    <details><summary><b>Activity: Create a Bass Tumbao</b></summary>
+  <ol>
+    <li>Watch tutorial</li>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/AwtdcELFpYA?si=0kk4FlgAMYXbvxR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <li>Code your own bass tumbao (bass line) following the example below:</li>
+
+    <pre><code class="notation">
+      bajo tumbao  𝅘𝅥  𝄽  𝅘𝅥 /3 𝅘𝅥 /5 
+    </code></pre>
+  </ol>
+</details>
+    
 </details>
 
 <details>
-  <summary><b>🟣 The Keyboard Accompaniment (20 min)</b></summary>
-  <ul>
+  <summary><b>🟣 The Teclado (keyboard) Accompaniment (20 min)</b></summary>
+
+  <div style="display: flex; align-items: flex-start; gap: 20px; margin-top: 1em;">
+
+    <!-- Left column: image -->
+    <div style="flex: 1; min-width: 200px;">
+      <img src="images/keyboard.jpg" alt="Seis8s interface" width="100%" style="border-radius: 8px; ">
+    </div>
+  
+    <!-- Right column: text -->
+    <div style="flex: 2;">
+      <p>
+        Electronic keyboards offer a diverse selection of instrument sounds (piano, organ, violin, etc.) along with synthesizer tones. Keyboards have limited sound editing options, focusing on preset sounds. Casio and Yamaha are major manufacturers in this market, known for popularizing the concept since the 1980s. (<a href="https://en.wikipedia.org/wiki/Electronic_keyboard" target="_blank">Wikipedia</a>). 
+      </p>            
+      <p>In cumbia, the keyboard accompaniment provides the harmonic foundation that supports the rhythm section and gives the music its rich, layered feel. This accompaniment is usually played using <strong>chords, which are groups of two or more notes sounded together to create harmony</strong>.</p>
+    </div>  
+  </div>
+
+  <details><summary><a>Teclado Commands</a></summary>
+    <h3>Keyboard (Teclado) Commands</h3>
+
+    <table border="1" cellspacing="0" cellpadding="8">
+      <thead>
+        <tr>
+          <th>Command</th>
+          <th>Description</th>
+          <th>Example</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>teclado</code></td>
+          <td>Plays a default keyboard sound</td>
+          <td><code>teclado</code></td>
+        </tr>
+        <tr>
+          <td><code>sonido</code></td>
+          <td>Selects the sound/sample</td>
+          <td><code>teclado (sonido 7)</code></td>
+        </tr>
+        <tr>
+          <td><code>volumen</code></td>
+          <td>Adjusts the volume</td>
+          <td><code>teclado (volumen 0.95)</code></td>
+        </tr>
+        <tr>
+          <td><code>paneo</code></td>
+          <td>Pans the sound left, right, or center</td>
+          <td><code>teclado (paneo 0)</code></td>
+        </tr>
+        <tr>
+          <td><code>octava</code></td>
+          <td>Changes the pitch by octave</td>
+          <td><code>teclado (octava 4)</code></td>
+        </tr>
+        <tr>
+          <td><code>acompañamiento</code></td>
+          <td>Sets the rhythm of the chord accompaniment</td>
+          <td><code>teclado acompañamiento <span class="notation">𝄽 𝅘𝅥 𝄽 𝅘𝅥</span></code></td>
+        </tr>
+        <tr>
+          <td><code>acompanamiento</code></td>
+          <td>Synonym of <code>acompañamiento</code></td>
+          <td><code>teclado acompanamiento <span class="notation"> 𝄽 𝅘𝅥 𝄽 𝅘𝅥</span></code></td>
+        </tr>
+      </tbody>
+    </table>  
+  </details>
+
+  <details><summary><a>Activity: Create a Teclado Accompaniment</a></summary>
+  <ol>
     <li>Watch tutorial</li>
-    <li>Add keyboard accompaniment to your groove</li>
+   
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/m23DDvTluVU?si=Qu2fPy7_DQqEQRNO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <li>Code your own keyboard accompaniment following the example below:</li>
+
+    <pre><code class="notation">
+      teclado acompañamiento 𝄽 𝅘𝅥 𝄽 𝅘𝅥
+    </code></pre>
+  </ol>
+</details>
+</details>
+
+<details class="subDetails">
+  <summary><b>Activity: Collective Listening II</b></summary>
+  <p>Listen to a cumbia song with guided prompts:</p>
+  <ul>
+    <li>What instruments do you hear?</li>
+    <li>What rhythms, bass lines, and accompaniments do you recognize?</li>
   </ul>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/qqqMyxv5al4?si=_-GSytX3kn4hufjt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <br>
+  <a href="https://en.wikipedia.org/wiki/Raymix" target="_blank"> Raymix - Oye Mujer (Mexico, 2016, 4 min)</a> 
+
 </details>
 
 <details>
-  <summary><b>🟡 Optional / Overflow: Keyboard Punteo (20 min)</b></summary>
-  <ul>
+  <summary><b>🟡 Extra: Keyboard Punteo (picking) (10 min)</b></summary>
+
+  <p>Punteo (picking) refers to creating a lead melody. Punteos are done with keyboards, synthesizers, accordions, guitars, and flutes. Cumbia usually uses <a href="https://en.wikipedia.org/wiki/Pentatonic_scale" target="_blank"> pentatonic scales</a> to create punteos (ex. C D E G A).</p>
+
+  <ol>
     <li>Watch tutorial</li>
-    <li>Create melodic keyboard patterns for cumbia</li>
-  </ul>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/fqYrgKQfzH0?si=g4IiQwjCP6U9M7x7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <li>Create a keyboard punteo following the code below: </li>    
+
+    <pre><code class="notation">
+      teclado(id "p", s 8) punteo [𝅘𝅥 𝅘𝅥𝅮 𝅘𝅥𝅮/5 𝅘𝅥 𝅘𝅥𝅮/5 𝅘𝅥𝅮 | 𝄾 𝅘𝅥𝅮/5 𝅘𝅥 𝄾 𝅘𝅥𝅮/5 𝅘𝅥]
+    </code></pre>
+  </ol>
 </details>
+
+<!-- <details>
+  <summary><b>🟡 Extra: Greetings (10 min)</b></summary>
+
+  <p>In Cumbia Sonidera, greetings (saludos) are a central part of the experience, delivered by DJs (sonideros) over the music. These greetings, often dedications to specific people or groups, are a way to connect with loved ones, celebrate events, and maintain cultural ties, especially for those living far from their homeland. </p>
+  </details> -->
 
 <hr>
 
@@ -804,9 +1076,8 @@ SVG an appealing medium for expressing the visual culture</p>
   <ul>
     <li>What did you learn?</li>
     <li>What surprised or excited you?</li>
-    <li>What might you do next with Seis8s or live coding?</li>
-    <li>Optional show-and-tell: share what you built</li>
-    <li>Q&A and follow-up resources</li>
+    <li>Share other comments or questions</li>
+
   </ul>
 </details>
 
